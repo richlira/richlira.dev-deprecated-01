@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "./node_modules/@fortawesome/fontawesome-free/sprites/brands.svg"
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "personal-site"
+    }
+  },
+  "defaultProject": "personal-site",
+  "cli": {
+    "analytics": "f49e6277-2b1e-4a61-8d67-ea175dfaf147"
+  }
 }
