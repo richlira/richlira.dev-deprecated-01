@@ -5,6 +5,10 @@
     justify-content: center;
     width: 100%;
 
+    @media only screen and (max-width: 319px) {
+        height: unset;
+    }
+
     &-header {
         height: auto;
         width: 590px;
@@ -13,11 +17,21 @@
             padding: 0 20px;
         }
 
+        &-title {
+            @media only screen and (max-width: 319px) {
+                font-size: 15px;
+            }
+        }
+
         &-subtitle {
             font-size: 30px;
 
             @media only screen and (max-width: 600px) {
                 font-size: 25px;
+            }
+
+            @media only screen and (max-width: 319px) {
+                font-size: 15px;
             }
         }
 
@@ -32,15 +46,21 @@ h1 {
     font-size: 90px;
     line-height: 90px;
     margin: unset;
+
+    @media only screen and (max-width: 319px) {
+        font-size: 40px;
+        line-height: 40px;
+    }
 }
 
 *{
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 i {
     font-size: 50px;
     padding: 0 15px;
+    font-weight: 400;
 
     @media only screen and (max-width: 414px) {
         font-size: 35px;
