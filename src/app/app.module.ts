@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HolabananaComponent } from './holabanana/holabanana.component';
 import { BioComponent } from './bio/bio.component';
+import { HolabananaprivacypolicyComponent } from './holabananaprivacypolicy/holabananaprivacypolicy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HolabananaComponent,
-    BioComponent
+    BioComponent,
+    HolabananaprivacypolicyComponent
   ],
   imports: [
     BrowserModule,
