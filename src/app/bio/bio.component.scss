@@ -81,12 +81,22 @@ a:visited {
     color: black;
 }
 
+@media (prefers-color-scheme: dark) {
+    a {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+}
+
 #linkedin :hover {
     color: #0A66C2;
 }
 
 #github :hover {
-    color: #edd925;
+    color: #25ed51;
 }
 
 #devto :hover {
